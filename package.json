@@ -1,6 +1,6 @@
 {
   "name": "ng-youtube-responsive",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Youtube video embeds for responsive layouts",
   "main": "",
   "scripts": {
@@ -21,7 +21,7 @@
     "karma-jasmine": "*",
     "karma-chrome-launcher": "*",
     "karma-firefox-launcher": "*",
-    "karma-ng-html2js-preprocessor": "*",
+    "karma-ng-html2js-preprocessor": "~0.1.0",
     "serve": "~1.3.0",
     "grunt-cli": "~0.1.9",
     "grunt": "~0.4.1",

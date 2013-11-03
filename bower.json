@@ -1,6 +1,6 @@
 {
   "name": "ng-youtube-responsive",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Youtube video embeds for responsive layouts",
   "main": "js/vidz.js",
   "scripts": {
@@ -19,5 +19,8 @@
     "jquery": "~2.0.3",
     "angular": "~1.0.8",
     "jquery-throttle-debounce": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.0-rc.2"
   }
 }

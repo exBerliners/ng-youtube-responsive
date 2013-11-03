@@ -2,7 +2,7 @@ var vidz = angular.module('youtubeResponsive', []);
 
 vidz.directive('responsiveVideo', function($rootScope) {
     return {
-      templateUrl: '/tpl/youtube-video.html',
+      templateUrl: 'tpl/youtube-video.html',
       restrict: 'EA',
       scope: {
         videoSlug: '@'

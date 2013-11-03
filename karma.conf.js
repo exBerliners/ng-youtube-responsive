@@ -9,9 +9,10 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // libraries
-      'lib/jquery-1.8.1.min.js',
-      'lib/angular.js',
-      'lib/angular-mocks.js',
+      'bower_components/jquery/jquery.js',
+      'bower_components/jquery-throttle-debounce/jquery.ba-throttle-debounce.js',
+      'bower_components/angular/angular.js',
+      'bower_components/angular-mocks/angular-mocks.js',
 
       // our app
       'js/*.js',
@@ -28,7 +29,7 @@ module.exports = function(config) {
       'tpl/*.html': 'ng-html2js'
     },
 
-    autoWatch: true,
-    browsers: ['Chrome']
+    autoWatch: true
+    // browsers: ['Chrome']
   });
 };
