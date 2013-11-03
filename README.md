@@ -16,6 +16,15 @@ angular.module('myApp', ['youtubeResponsive']);
 ```
 
 
+## Install
+
+```Shell
+$ bower install ng-youtube-responsive
+```
+
+Or just include 'js/vidz.js' file in your html.
+
+
 ## Demo
 
 Run the following commands and navigate to [http://localhost:3000/](http://localhost:3000/)

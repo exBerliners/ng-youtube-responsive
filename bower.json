@@ -1,8 +1,8 @@
 {
   "name": "ng-youtube-responsive",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Youtube video embeds for responsive layouts",
-  "main": "",
+  "main": "js/vidz.js",
   "scripts": {
     "test": "karma start --single-run --no-auto-watch"
   },
