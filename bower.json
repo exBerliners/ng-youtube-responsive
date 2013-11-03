@@ -1,0 +1,23 @@
+{
+  "name": "ng-youtube-responsive",
+  "version": "0.0.0",
+  "description": "Youtube video embeds for responsive layouts",
+  "main": "",
+  "scripts": {
+    "test": "karma start --single-run --no-auto-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/techjacker/ng-youtube-responsive.git"
+  },
+  "author": {
+    "name": "Andrew Griffiths",
+    "email": "mail@andrewgriffithsonline.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "angular": "~1.0.8",
+    "jquery-throttle-debounce": "*"
+  }
+}

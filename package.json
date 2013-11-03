@@ -1,22 +1,31 @@
 {
   "name": "ng-youtube-responsive",
   "version": "0.0.0",
-  "description": "An example of testing AngularJS directives with Karma.",
+  "description": "Youtube video embeds for responsive layouts",
   "main": "",
   "scripts": {
-    "test": "karma start --single-run --no-auto-watch"
+    "test": "karma start --single-run --no-auto-watch",
+    "server": "serve"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vojtajina/ng-youtube-responsive.git"
+    "url": "git://github.com/techjacker/ng-youtube-responsive.git"
   },
-  "author": "Vojta Jina <vojta.jina@gmail.com>",
+  "author": {
+    "name": "Andrew Griffiths",
+    "email": "mail@andrewgriffithsonline.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",
     "karma-jasmine": "*",
     "karma-chrome-launcher": "*",
     "karma-firefox-launcher": "*",
-    "karma-ng-html2js-preprocessor": "*"
+    "karma-ng-html2js-preprocessor": "*",
+    "serve": "~1.3.0",
+    "grunt-cli": "~0.1.9",
+    "grunt": "~0.4.1",
+    "load-grunt-tasks": "~0.2.0",
+    "grunt-bower-install": "~0.6.1"
   }
 }
