@@ -1,1 +1,1 @@
-var app = angular.module('app', ['youtube-responsive']);
+var app = angular.module('app', ['youtubeResponsive']);

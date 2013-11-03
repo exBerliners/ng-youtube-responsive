@@ -1,4 +1,4 @@
-var vidz = angular.module('youtube-responsive', []);
+var vidz = angular.module('youtubeResponsive', []);
 
 vidz.directive('responsiveVideo', function($rootScope) {
     return {
