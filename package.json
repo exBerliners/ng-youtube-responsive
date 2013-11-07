@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "test": "karma start --single-run --no-auto-watch",
-    "server": "serve"
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
     "grunt": "~0.4.1",
     "load-grunt-tasks": "~0.2.0",
     "grunt-bower-install": "~0.6.1"
+  },
+  "dependencies": {
+    "serve": "~1.3.0"
   }
 }

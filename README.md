@@ -32,12 +32,12 @@ Run the following commands and navigate to [http://localhost:3000/](http://local
 
 #### install deps
 ```Shell
-$ npm install --dev
+$ npm install && bower install
 ```
 
 #### run demo server
 ```Shell
-$ serve
+$ npm start
 ```
 
 
